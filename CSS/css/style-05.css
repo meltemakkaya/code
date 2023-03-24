@@ -1,0 +1,21 @@
+*{
+    color: rgb(231, 61, 166);
+
+}
+
+.highlight{
+    font-size: 1.2rem;
+    color: darkcyan;
+}
+
+.center{
+    text-align: center;
+}
+
+h1.center{
+    background-color: midnightblue;
+}
+
+#p1{
+    text-align: justify;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Excersize</title>
+</head>
+<body>
+
+    <form action="" method="post" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td><label for="adi">Adı</label></td>
+                        <td><input type="text" name="adi" id="adi" required minlength="2" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="soyadi">Soyadı</label></td>
+                        <td><input type="text" name="soyadi" id="soyadi" minlength="2" maxlength="30" ></td>
+                    </tr>
+                    <tr>
+                        <td>Cinsiyeti</td>
+                        <td>
+                            <input type="radio" name="cinsiyet" id="cinsiyetE" value="erkek" required>
+                            <label for="cinsiyetE">Erkek</label>
+
+                            <input type="radio" name="cinsiyet" id="cinsiyetK" value="kadın" required>
+                            <label for="cinsiyetK">Kadın</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="ulke">Ülke</label></td>
+                        <td>
+                            <select name="ulke" id="ulke" required>
+                                <option value="" disabled selected>SEÇİNİZ</option>
+                                <option value="tr">Türkiye</option>
+                                <option value="usa">USA</option>
+                                <option value="uk">UK</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="eposta"></label>Eposta</td>
+                        <td><input type="email" name="eposta" id="eposta" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="web">Web</label></td>
+                        <td><input type="url" name="web" id="web"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telefon">Telefon</label></td>
+                        <td><input type="tel" name="telefon" id="telefon"></td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+              <table>
+                <tr>
+                    <td>Hobiler</td>
+                    <td>
+                        <input type="checkbox" name="hobiler" id="hobiFutbol">
+                        <label for="hobiFutbol">Futbol</label><br>
+
+                        <input type="checkbox" name="hobiler" id="hobiVoleybol">
+                        <label for="hobiVoleybol">Voleybol</label><br>
+
+                        <input type="checkbox" name="hobiler" id="hobiBasketbol">
+                        <label for="hobiBasketbol">Basketbol</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="profil">Profil</label></td>
+                    <td><input type="file" name="profil" id="profil"></td>
+                </tr>
+                <tr>
+                    <td><label for="dogum"></label></td>
+                    <td><input type="date" name="dogum" id="dogum" required max="2018-01-01"></td>
+                </tr>
+                <tr>
+                    <td><label for="adres">Adres</label></td>
+                    <td>
+                        <textarea name="adres" id="adres" cols="30" rows="3"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit">Kaydet</button>
+                    </td>
+                    
+                </tr>
+              </table>  
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

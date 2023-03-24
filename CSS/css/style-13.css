@@ -1,0 +1,15 @@
+.kutu1{
+    background-color: aqua;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.kutu2{
+    background-color: blue;
+    padding: 5px 10px;
+}
+
+em{
+    padding:20px;
+    /*inline elmentler sadece yatay padding*/
+}
